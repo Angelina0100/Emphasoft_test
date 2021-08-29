@@ -181,6 +181,7 @@ section:nth-of-type(odd) {
       max-width: 255px;
       margin-right: 20px;
       @include cta-green(false);
+
       @include tablet-sm {
         max-width: 100%;
         margin-right: 0;

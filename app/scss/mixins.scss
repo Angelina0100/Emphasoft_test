@@ -33,7 +33,7 @@
   @if $border-style {
     border: 1px solid currentColor;
     color: $dark-violet;
-    transition: background-color, border, color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, border .3s ease-in-out, color .3s ease-in-out;
     @include tablet-sm {
       border: 3px solid currentColor;
     }
@@ -49,7 +49,7 @@
   } @else {
     background-color: $green;
     color: #fff;
-    transition: background-color, border, color .3s ease-in-out;
+    transition: background-color .3s ease-in-out, border .3s ease-in-out, color .3s ease-in-out;
     &:hover,
     &:active {
       background-color: transparent;
